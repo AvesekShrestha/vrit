@@ -8,21 +8,20 @@ This repository contains two projects:
 ## Table of Contents
 
 1. [Scroll Animation](#scroll-animation)
-    - [Overview](#overview-1)
-    - [Setup Instructions](#setup-instructions-1)
-    - [Technology Choices](#technology-choices-1)
-    - [Known Limitations](#known-limitations-1)
-    - [Future Improvements](#future-improvements-1)
-    - [Time Spent](#time-spent-1)
-2. [Drag and Drop](#drag-and-drop)
-    - [Overview](#overview-2)
-    - [Setup Instructions](#setup-instructions-2)
-    - [Technology Choices](#technology-choices-2)
-    - [Known Limitations](#known-limitations-2)
-    - [Future Improvements](#future-improvements-2)
-    - [Time Spent](#time-spent-2)
+   - [Overview](#overview)
+   - [Setup Instructions](#setup-instructions)
+   - [Technology Choices](#technology-choices)
+   - [Known Limitations](#known-limitations)
+   - [Future Improvements](#future-improvements)
+   - [Time Spent](#time-spent-1)
+2. [Drag and Drop](#drag-and-drop-kanban-board)
+   - [Overview](#overview-1)
+   - [Setup Instructions](#setup-instructions-1)
+   - [Technology Choices](#technology-choices-1)
+   - [Known Limitations](#known-limitations-1)
+   - [Future Improvements](#future-improvements-1)
+   - [Time Spent](#time-spent)
 
----
 
 ## Scroll Animation
 

@@ -33,7 +33,7 @@ This project is a smooth scroll animation demo featuring card elements that scal
 
 1. **Navigate to the Scroll Animation Folder**
    ```bash
-   git clone https://github.com/AvesekShrestha/Vrit-
+   git clone https://github.com/AvesekShrestha/vrit
    cd scroll
 2. Run the Project Open index.html in your browser.
 
@@ -85,7 +85,7 @@ Before starting, ensure the following are installed on your system:
 
 1. Clone repo and navigate to dragDrop
    ```bash
-   git clone https://github.com/AvesekShrestha/Vrit-
+   git clone https://github.com/AvesekShrestha/vrit
    cd dragDrop
 2. Installing Dependency 
     ```bash

@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react'
 import { FaPlus } from 'react-icons/fa'
 
 export default function Dragdrop() {
+    // checking for saved tasks in local storage 
     const [tasks, setTasks] = useState(() => {
         const savedTasks = localStorage.getItem('tasks');
         return savedTasks ? JSON.parse(savedTasks) : { task: [], inProgress: [], completed: [] };
     });
 
+    // function to add task 
     const addTask = (section) => {
         const newTask = prompt("Enter task name:");
         if (newTask) {
@@ -56,9 +58,11 @@ export default function Dragdrop() {
                 const draggedItem = document.getElementById(id);
                 dropZone.appendChild(draggedItem);
                 dropZone.style.backgroundColor = "white";
+
+
             });
         });
-    },[tasks]);
+    }, [tasks]);
 
     return (
         <div className="container-fluid d-flex justify-content-center" style={{ height: "100vh" }}>

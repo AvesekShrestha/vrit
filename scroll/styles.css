@@ -14,6 +14,7 @@
     background: linear-gradient(to right, #f15b2a, #914cf4);
 }
 
+/* Used when card is currently active  */
 .current {
     transform: scale(2);
     opacity: 1 !important;

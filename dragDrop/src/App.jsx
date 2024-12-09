@@ -1,5 +1,4 @@
 import { Route, Routes, BrowserRouter } from "react-router";
-import Home from "./pages/home";
 import Dragdrop from "./pages/Dragdrop"
 const App = () => {
 
@@ -7,9 +6,7 @@ const App = () => {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/dragdrop" element={<Dragdrop />} />
-
+                    <Route path="/" element={<Dragdrop />} />
                 </Routes>
             </BrowserRouter>
 
